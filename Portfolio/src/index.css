@@ -10,7 +10,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 .hash-span {
@@ -40,6 +40,16 @@
     -90deg,
     #804dee 0%,
     rgba(60, 51, 80, 0) 100%
+  );
+}
+
+.primary-gradient {
+  background: #2ECC71;
+  background: linear-gradient(-90deg, #2ECC71 0%, rgba(21, 49, 29, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #2ECC71 0%,
+    rgba(21, 49, 29, 0) 100%
   );
 }
 
