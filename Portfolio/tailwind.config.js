@@ -23,8 +23,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern-1': "url('/src/assets/herobg.png')",
-        'hero-pattern-2': "url('/src/assets/herobg2.png')",
-        'hero-pattern-3': "url('/src/assets/herobg3.png')",
+        'hero-pattern-alt': "url('/src/assets/herobgalt.png')",
       },
       rotate: {
         36: '36deg',
