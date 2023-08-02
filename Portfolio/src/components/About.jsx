@@ -4,6 +4,12 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
+const ServiceCard = ({ index, title, icon}) => {
+  return (
+    <p>{title}</p>
+  )
+}
+
 const About = () => {
   return (
     <section className="relative w-full h-screen mx-auto bg-hero-pattern-alt bg-no-repeat bg-cover overflow-hidden">
@@ -14,7 +20,7 @@ const About = () => {
               Introduction
             </p>
             <h2 className={styles.sectionHeadText} >
-              Overview
+              Overview.
             </h2>
           </motion.div>
           <motion.p variants={fadeIn("", "", 0.1, 1)} className="text-dark-200 text-[17px] max-w-3xl leading-30">
@@ -24,6 +30,14 @@ const About = () => {
             utilizing content management systems such as WordPress, 
             Webflow and HubSpot CMS and developing React.JS front-end.
           </motion.p>
+          <div className="mt-20 flex flex-wrap gap-10">
+
+
+            {services.map((service, index) => (
+              <ServiceCard key={service.title} index={index} {...service} />
+            ))}
+
+          </div>
         </div>
       </div>
     </section>

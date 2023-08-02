@@ -4,6 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+::-moz-selection { /* Code for Firefox */
+  color: #ffffff;
+  background: #2ECC71;
+}
+
+::selection {
+  color: #ffffff;
+  background: #2ECC71;
+}
+
 * {
   margin: 0;
   padding: 0;
