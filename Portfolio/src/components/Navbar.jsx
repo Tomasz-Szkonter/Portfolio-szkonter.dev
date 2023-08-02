@@ -36,8 +36,8 @@ const Navbar = () => {
             className="w-9 h-9 object-contain"
           />
           <p className="text-dark-100 uppercase text-[18px] font-roboto font-extrabold cursor-pointer flex flex-col leading-none">
-            Szkonter
-            <span className="text-primary font-thin">Development</span>
+            <span className='ml-[18px]' style={{transform:"scale(1.36,1)"}}>Szkonter</span>
+            <span className="text-primary font-normal">Development</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
