@@ -24,10 +24,17 @@
 }
 
 .hash-span {
-  margin-top: -100px;
-  padding-bottom: 100px;
-  display: block;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  position: absolute;
 }
+
+.sectionBackground_about,
+.sectionBackground_work {
+  background-image: url('/src/assets/herobgalt.png');
+}
+
 
 .black-gradient {
   background: #000000; /* fallback for old browsers */

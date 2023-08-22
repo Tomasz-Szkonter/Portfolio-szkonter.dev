@@ -5,13 +5,16 @@ import { staggerContainer } from "../utils/motion"
 
 const SectionWrapper = (Component, idName) => 
 function HOC() {
+
+    let sectionBackground = `sectionBackground_` + `${idName}`;
+
     return (
         <motion.section
             variants={staggerContainer()}
             initial="hidden"
             whileInView="show"
             viewport={{ once: true, amount: 0.25 }}
-            className={`${styles.padding} max-w-7xl mx-auto relative z-0`}>
+            className={`${styles.paddingX} ${sectionBackground} relative z-0 bg-no-repeat bg-cover`}>
 
             <span className="hash-span" id={idName}>
                 &nbsp;

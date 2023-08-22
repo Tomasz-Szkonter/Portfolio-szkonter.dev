@@ -21,9 +21,9 @@ const ServiceCard = ({ index, title, icon}) => {
 
 const About = () => {
   return (
-    <section className="relative w-full h-full mx-auto bg-hero-pattern-alt bg-no-repeat bg-cover overflow-hidden">
-      <div className={`${styles.paddingX}flex h-full justify-center items-center`}>
-        <div className="flex h-full flex-col bg-white p-[50px]">
+    <div className="relative w-full h-full mx-auto overflow-hidden">
+      <div className="flex w-full h-full justify-center items-center ">
+        <div className="flex w-full marker:h-full flex-col bg-white p-[50px]">
           <motion.div variants={textVariant()}>
             <p className={styles.sectionSubText} >
               Introduction
@@ -49,7 +49,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

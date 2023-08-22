@@ -120,8 +120,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
+    title: 'Web Developer - Freelance',
+    company_name: 'Szkonter Development',
     icon: starbucks,
     iconBg: '#383E56',
     date: 'March 2020 - April 2021',
@@ -133,37 +133,25 @@ const experiences = [
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
+    title: 'Junior Front-End Developer',
+    company_name: 'Chimera Prime - IT Consulting',
     icon: tesla,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'June 2022 - April 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Facilitate the development and growth of HubSpot websites by creating custom themes, landing pages, and optimizing SEO and performance',
+      'Ensure optimal functionality and performance of company websites and web tools through regular maintenance and updates.',
+      'Collaborate with teams of designers and marketers on a daily basis to identify and implement strategies aimed at improving conversion rates.',
+      `Integrate complex front-end features with React.js for client's websites to enhance user experience and interface design.`,
+      'Continuously generate documentation and guidelines for future development to ensure consistency and efficient project management.'
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
+    title: 'SEO Intern',
+    company_name: 'Chimera Prime - IT Consulting',
     icon: shopify,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    date: 'February 2022 - June 2022',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
