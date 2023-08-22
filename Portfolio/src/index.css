@@ -159,6 +159,32 @@
   transform: translateZ(0);
 }
 
+/* CUSTOM LINE COLOR */
+/* The line */
+.vertical-timeline::before {
+  background: #2ECC71 !important;
+}
+
+/* Icon container's border */
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #2ECC71, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  background: #FFFFFF !important;
+}
+
+.vertical-timeline-element-content {
+  background: #2ECC71 !important;
+  background: linear-gradient(90.13deg, #2ECC71 1.9%, #263547 97.5%) !important;
+  background: -webkit-linear-gradient(-90.13deg, #2ECC71 1.9%, #263547 97.5%) !important;
+  padding: 3px !important;
+}
+
+.vertical-timeline-element-date {
+  background: #FFFFFF;
+  opacity: 1 !important;
+  width: 100%;
+  padding: 1rem !important;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
