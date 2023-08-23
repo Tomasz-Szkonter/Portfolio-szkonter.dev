@@ -18,6 +18,8 @@ module.exports = {
       boxShadow: {
         card: '0px 35px 120px -15px #211e35',
         card_2: '0 1rem 2rem hsl(0 0% 0% / 20%)',
+        // hero: 'inset 19px 22px 15px -24px rgba(38, 53, 71, 1)',
+        // section: 'inset 19px 0px 15px -24px rgba(38, 53, 71, 1), inset -19px 0px 15px -24px rgba(38, 53, 71, 1)',
       },
       screens: {
         xs: '450px',

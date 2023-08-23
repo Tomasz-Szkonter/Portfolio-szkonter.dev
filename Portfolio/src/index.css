@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: #ffffff;
-  background: #2ECC71;
+  background: #2ecc71;
 }
 
 ::selection {
   color: #ffffff;
-  background: #2ECC71;
+  background: #2ecc71;
 }
 
 * {
@@ -34,7 +35,6 @@
 .sectionBackground_work {
   background-image: url('/src/assets/herobgalt.png');
 } */
-
 
 .black-gradient {
   background: #000000; /* fallback for old browsers */
@@ -61,11 +61,11 @@
 }
 
 .primary-gradient {
-  background: #2ECC71;
-  background: linear-gradient(-90deg, #2ECC71 0%, rgba(21, 49, 29, 0) 100%);
+  background: #2ecc71;
+  background: linear-gradient(-90deg, #2ecc71 0%, rgba(21, 49, 29, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #2ECC71 0%,
+    #2ecc71 0%,
     rgba(21, 49, 29, 0) 100%
   );
 }
@@ -78,8 +78,8 @@
 
 .primary-dark-gradient {
   background: "#2ECC71";
-  background: linear-gradient(90.13deg, #2ECC71 1.9%, #263547 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #2ECC71 1.9%, #263547 97.5%);
+  background: linear-gradient(90.13deg, #2ecc71 1.9%, #263547 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #2ecc71 1.9%, #263547 97.5%);
 }
 
 .orange-text-gradient {
@@ -162,28 +162,43 @@
 /* CUSTOM LINE COLOR */
 /* The line */
 .vertical-timeline::before {
-  background: #2ECC71 !important;
+  background: #2ecc71 !important;
+  background: linear-gradient(
+    90.13deg,
+    #2ecc71 70.9%,
+    #263547 97.5%
+  ) !important;
+  background: -webkit-linear-gradient(
+    -90.13deg,
+    #2ecc71 70.9%,
+    #263547 97.5%
+  ) !important;
 }
 
 /* Icon container's border */
 .vertical-timeline-element-icon {
-  box-shadow: 0 0 0 4px #2ECC71, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-  background: #FFFFFF !important;
+  box-shadow: 0 0 0 4px #2ecc71, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
+  background: #ffffff !important;
 }
 
 .vertical-timeline-element-content {
-  background: #2ECC71 !important;
-  background: linear-gradient(90.13deg, #2ECC71 1.9%, #263547 97.5%) !important;
-  background: -webkit-linear-gradient(-90.13deg, #2ECC71 1.9%, #263547 97.5%) !important;
-  padding: 3px !important;
+  background: #2ecc71 !important;
+  background: linear-gradient(90.13deg, #2ecc71 1.9%, #263547 97.5%) !important;
+  background: -webkit-linear-gradient(
+    -90.13deg,
+    #2ecc71 1.9%,
+    #263547 97.5%
+  ) !important;
+  padding: 2px !important;
   --tw-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
   --tw-shadow-colored: 0 1rem 2rem var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .vertical-timeline-element-date {
-  background: #FFFFFF;
+  background: #ffffff;
   opacity: 1 !important;
   width: 100%;
   padding: 1rem !important;

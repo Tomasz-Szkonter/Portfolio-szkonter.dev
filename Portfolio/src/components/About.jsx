@@ -23,7 +23,7 @@ const About = () => {
   return (
     <div className="relative w-full h-full mx-auto overflow-hidden">
       <div className="flex w-full h-full justify-center items-center ">
-        <div className="flex w-full marker:h-full flex-col bg-white p-[50px]">
+        <div className="flex w-full marker:h-full flex-col bg-white p-[50px] shadow-section">
           <motion.div variants={textVariant()}>
             <p className={styles.sectionSubText} >
               Introduction
@@ -39,7 +39,7 @@ const About = () => {
             utilizing content management systems such as WordPress, 
             Webflow and HubSpot CMS and developing React.JS front-end.
           </motion.p>
-          <div className="mt-20 flex flex-wrap gap-10">
+          <div className="mt-20 flex flex-wrap justify-center gap-10">
 
 
             {services.map((service, index) => (

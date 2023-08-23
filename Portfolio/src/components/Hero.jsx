@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     // bg-hero-pattern-alt
     <section className="relative w-full h-screen mx-auto  bg-no-repeat bg-cover overflow-hidden "> 
-      <div className={`${styles.paddingX} pt-48 flex h-full justify-center items-center drop-shadow-2xl`}>
-        <div className={`w-4/6 h-full p-[50px] flex justify-start items-start bg-white rounded-tl-2xl gap-8`}>
+      <div className={`${styles.paddingX} pt-24 flex h-full justify-center items-center `}>
+        <div className={`w-7/12 h-full p-[50px] flex justify-start items-start shadow-hero bg-white rounded-tl-2xl gap-8`}>
           <div className="flex flex-col justify-center items-center mt-5">
             <div className="w-5 h-5 rotate-45 bg-primary rounded-l" />
             <div className="w-1 sm:h-80 h-40 primary-gradient" />
@@ -25,7 +25,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className={`w-2/6 h-full flex justify-center items-center bg-dark-100/70 rounded-tr-2xl`}>
+        <div className={`w-5/12 h-full flex justify-center items-center  rounded-tr-2xl`}>
           <div className="relative w-full h-full z-10">
             <LogoModel className="testing-my-canvas" />
           </div>
