@@ -25,10 +25,9 @@
 }
 
 .hash-span {
-  margin: 0;
-  padding: 0;
-  display: inline;
-  position: absolute;
+  margin-top: -100px;
+  padding-bottom: 100px;
+  display: block;
 }
 
 /* .sectionBackground_about,

@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  herobg,
+  webdevelopment,
+  reactdevelopment,
+  cmsdevelopment,
+  seooptimisation,
 } from '../assets';
 
 export const navLinks = [
@@ -47,19 +52,19 @@ export const navLinks = [
 const services = [
   {
     title: 'Web Development',
-    icon: web,
+    icon: webdevelopment,
   },
   {
     title: 'React.JS Development',
-    icon: mobile,
+    icon: reactdevelopment,
   },
   {
     title: 'CMS Development',
-    icon: backend,
+    icon: cmsdevelopment,
   },
   {
     title: 'SEO Optimisation',
-    icon: creator,
+    icon: seooptimisation,
   },
 ];
 
@@ -190,7 +195,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Coming Soon...',
     description:
       'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
     tags: [
@@ -207,11 +212,11 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
+    image: herobg,
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Job IT',
+    name: 'Coming Soon...',
     description:
       'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
     tags: [
@@ -228,11 +233,11 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
+    image: herobg,
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Trip Guide',
+    name: 'Coming Soon...',
     description:
       'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
     tags: [
@@ -249,7 +254,28 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
+    image: herobg,
+    source_code_link: 'https://github.com/',
+  },
+  {
+    name: 'Coming Soon...',
+    description:
+      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: herobg,
     source_code_link: 'https://github.com/',
   },
 ];

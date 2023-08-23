@@ -18,11 +18,11 @@ const ProjectCard = ({ index, name, description, tags, image, scource_code_link}
         }}
         className="w-full primary-dark-gradient rounded-[20px] p-[1px] shadow-card_2"
       >
-        <div className="relative w-full h-[240px] bg-white rounded-[20px] py-5 px-12 flex justify-evenly items-center flex-col">
+        <div className="relative w-full h-[240px] bg-white rounded-t-[20px] py-3 px-3 flex justify-evenly items-center flex-col">
           <img 
             src={image}
             alt={name}
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-cover rounded-t-2xl"
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -34,8 +34,17 @@ const ProjectCard = ({ index, name, description, tags, image, scource_code_link}
             </div>
           </div>
         </div>
-        <div>
+        <div className="p-[1rem] bg-white">
+          <h3 className=" text-dark-100 font-bold text-[24px]">{name}</h3>
+          <p className=" text-dark-200 text-[14px]">{description}</p>
+        </div>
 
+        <div className="flex flex-wrap gap-2 p-[1rem] bg-white rounded-b-[20px]">
+          {tags.map((tag) => (
+            <p key={tag.name} className={`text-[14px] font-bold ${tag.color}`}>
+              #{tag.name}
+            </p>
+          ))}
         </div>
       </Tilt>
     </motion.div>

@@ -8,6 +8,17 @@ import { logo, logoText, menu, close } from '../assets';
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
+  const [showShadow, setShowShadow] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowShadow(window.scrollY > 80);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <nav
@@ -19,7 +30,7 @@ const Navbar = () => {
       fixed
       top-0
       z-20
-      bg-white`}
+      bg-white ${showShadow ? 'shadow-md' : ''}`}
     >
       <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
         <Link

@@ -31,7 +31,19 @@ import carrent from './carrent.png';
 import jobit from './jobit.png';
 import tripguide from './tripguide.png';
 
+import herobg from './herobg.png'
+import herobgalt from './herobgalt.png'
+
+import cmsdevelopment from './cmsdevelopment.png'
+import reactdevelopment from './reactdevelopment.png'
+import webdevelopment from './webdevelopment.png'
+import seooptimisation from './seooptimisation.png'
+
 export {
+  cmsdevelopment,
+  reactdevelopment,
+  webdevelopment,
+  seooptimisation,
   logo,
   logoText,
   backend,
@@ -61,4 +73,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  herobg,
+  herobgalt,
 };
