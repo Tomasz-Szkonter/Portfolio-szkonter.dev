@@ -30,10 +30,10 @@
   position: absolute;
 }
 
-.sectionBackground_about,
+/* .sectionBackground_about,
 .sectionBackground_work {
   background-image: url('/src/assets/herobgalt.png');
-}
+} */
 
 
 .black-gradient {
@@ -176,6 +176,10 @@
   background: linear-gradient(90.13deg, #2ECC71 1.9%, #263547 97.5%) !important;
   background: -webkit-linear-gradient(-90.13deg, #2ECC71 1.9%, #263547 97.5%) !important;
   padding: 3px !important;
+  --tw-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
+  --tw-shadow-colored: 0 1rem 2rem var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  
 }
 
 .vertical-timeline-element-date {

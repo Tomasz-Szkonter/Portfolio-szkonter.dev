@@ -4,7 +4,8 @@ import { LogoModel } from './canvas';
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto bg-hero-pattern-alt bg-no-repeat bg-cover overflow-hidden ">
+    // bg-hero-pattern-alt
+    <section className="relative w-full h-screen mx-auto  bg-no-repeat bg-cover overflow-hidden "> 
       <div className={`${styles.paddingX} pt-48 flex h-full justify-center items-center drop-shadow-2xl`}>
         <div className={`w-4/6 h-full p-[50px] flex justify-start items-start bg-white rounded-tl-2xl gap-8`}>
           <div className="flex flex-col justify-center items-center mt-5">

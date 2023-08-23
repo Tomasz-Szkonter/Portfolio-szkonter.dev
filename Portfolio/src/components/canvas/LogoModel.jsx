@@ -15,7 +15,7 @@ const LogoModel = ({ isMobile }) => {
   return (
     <mesh rotation={[0, rotationY, 0]}>
       <ambientLight />
-      <primitive scale={isMobile ? 2.0 : 2.2} position-y={-70} position-x={10} rotation-y={0} object={logoModel.scene} />
+      <primitive scale={isMobile ? 2.0 : 2.2} position-y={-70} position-x={10} rotation-y={0} object={logoModel.scene} receiveShadow castShadow/>
     </mesh>
   );
 };
@@ -57,6 +57,13 @@ const logoModelCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
+        />
+        <directionalLight
+          castShadow
+          position={[0, 100, 100]}
+          intensity={1}
+          shadow-mapSize-width={1024}
+          shadow-mapSize-height={1024}
         />
         <LogoModel isMobile={isMobile} />
       </Suspense>

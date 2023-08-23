@@ -16,20 +16,40 @@ const ExperienceCard = ({ experience }) => (
     date={experience.date}
     iconStyle={{ background: experience.iconBg }}
     icon={
-      <div>
+      <div className='flex justify-center items-center w-full h-full '>
         <img 
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain"
+          className="w-[80%] h-[80%] object-contain"
         />
       </div>
     }
   >
     <div className='bg-white'>
-      <h3 className="block text-dark-100 text-[24px] font-bold bg-white p-[1rem]">
+      <h3 className="block text-dark-100 text-[24px] font-bold bg-white px-[1rem] pt-[1rem]">
         {experience.title}
       </h3>
+      <p className='text-primary text-[16px] font-semibold px-[1rem] pb-[1rem] uppercase' style={{ margin: 0 }}>
+        {experience.company_name}
+      </p>
     </div>
+
+    <ul className='space-y-2 px-[1rem] pb-[1rem] bg-white list-none'>
+      {experience.points.map((point, index) => (
+        <div className='flex bg-white m-0 p-0'>
+          <span className='flex items-center justify-center mr-2'> 
+              <div className="w-3 h-3 rotate-45 rounded-m primary-dark-gradient" />
+          </span>
+          <li
+            key={`experience-point-${index}`}
+            className='text-dark-100 text-[14px] pl-1 tracking-wider'
+          >
+            {point}
+          </li>
+        </div>
+      ))}
+    </ul>
+
   </VerticalTimelineElement>
 )
 
@@ -50,7 +70,7 @@ const Experience = () => {
           <div className="mt-20 flex flex-col">
             <VerticalTimeline >
               {experiences.map((experience, index) => (
-                <ExperienceCard key={index} experience={experience}  />
+                <ExperienceCard key={index} experience={experience} />
               ))}
             </VerticalTimeline>
           </div>
