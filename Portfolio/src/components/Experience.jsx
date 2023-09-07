@@ -16,17 +16,17 @@ const ExperienceCard = ({ experience }) => (
     date={experience.date}
     iconStyle={{ background: experience.iconBg }}
     icon={
-      <div className='flex justify-center items-center w-full h-full '>
+      <div className='flex justify-center items-center w-full h-full'>
         <img 
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[80%] h-[80%] object-contain"
+          className="w-[80%] h-[80%] object-contain rounded-full"
         />
       </div>
     }
   >
-    <div className='bg-white'>
-      <h3 className="block text-dark-100 text-[24px] font-bold bg-white px-[1rem] pt-[1rem]">
+    <div className='bg-white rounded-t-[3px]'>
+      <h3 className="block text-dark-100 text-[24px] font-bold bg-white px-[1rem] pt-[1rem] rounded-xl">
         {experience.title}
       </h3>
       <p className='text-primary text-[16px] font-semibold px-[1rem] pb-[1rem] uppercase' style={{ margin: 0 }}>
@@ -34,7 +34,7 @@ const ExperienceCard = ({ experience }) => (
       </p>
     </div>
 
-    <ul className='space-y-2 px-[1rem] pb-[1rem] bg-white list-none'>
+    <ul className='space-y-2 px-[1rem] pb-[1rem] bg-white list-none rounded-b-[3px]'>
       {experience.points.map((point, index) => (
         <div className='flex bg-white m-0 p-0'>
           <span className='flex items-center justify-center mr-2'> 

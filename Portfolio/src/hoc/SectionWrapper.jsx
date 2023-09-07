@@ -7,6 +7,7 @@ const SectionWrapper = (Component, idName) =>
 function HOC() {
 
     let sectionBackground = `sectionBackground_` + `${idName}`;
+    let sectionColor      = `sectionColor_` + `${idName}`
 
     return (
         <motion.section
@@ -14,7 +15,7 @@ function HOC() {
             initial="hidden"
             whileInView="show"
             viewport={{ once: true, amount: 0.25 }}
-            className={`${styles.paddingX} ${sectionBackground} relative z-0 bg-no-repeat bg-cover`}>
+            className={`${styles.paddingX} ${sectionBackground} ${sectionColor} relative z-0 bg-no-repeat bg-cover`}>
 
             <span className="hash-span" id={idName}>
                 &nbsp;

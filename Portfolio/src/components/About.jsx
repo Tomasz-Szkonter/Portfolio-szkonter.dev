@@ -33,11 +33,13 @@ const About = () => {
             </h2>
           </motion.div>
           <motion.p variants={fadeIn("", "", 0.1, 1)} className="text-dark-200 text-[17px] max-w-3xl leading-30">
-            With over three years of experience as a web developer,
-            I have undertaken diverse projects both as a freelancer and an employee at a software house. 
-            My expertise primarily revolves around constructing websites for business clients, 
-            utilizing content management systems such as WordPress, 
-            Webflow and HubSpot CMS and developing React.JS front-end.
+            <p className="mt-1">
+              Having immersed myself in the world of web development for over three years, I've gathered a ton of experience under my belt. 
+              I've worn multiple hats - sometimes working solo as a freelancer, and other times jumping into the mix at respected software houses.</p>
+            <p className="mt-3">
+              My sweet spot is creating top-notch websites that cater to the specific needs of businesses. 
+              I've got the hang of popular content management systems like WordPress, Webflow, and HubSpot CMS - they're like my trusted tools. But hey, it doesn't stop there! 
+              I'm also pretty skilled at cooking up robust web applications that really push the envelope when it comes to digital innovation.</p>
           </motion.p>
           <div className="mt-20 flex flex-wrap justify-center gap-10">
 

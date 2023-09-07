@@ -1,5 +1,7 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
+import { BoxGeometry } from "three/src/Three";
+
 import {
   Decal,
   Float,

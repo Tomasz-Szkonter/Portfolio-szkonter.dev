@@ -28,6 +28,9 @@ import {
   reactdevelopment,
   cmsdevelopment,
   seooptimisation,
+  logo,
+  chimeraPrime,
+  sunriseSystem,
 } from '../assets';
 
 export const navLinks = [
@@ -127,20 +130,22 @@ const experiences = [
   {
     title: 'Web Developer - Freelance',
     company_name: 'Szkonter Development',
-    icon: starbucks,
+    icon: logo,
     iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    date: 'March 2020 - Current',
     points: [
+      'Developing custom WordPress, HubSpot and Webflow themes or implement existing ones to meet client needs.',
       'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Designing websites and interfaces to achieve optimal user experience and interface design',
+      'Regularly maintain and update client websites to ensure optimal functionality and optimal performance.',
+      'Provide comprehensive SEO services, including optimization, monitoring, and regular reporting on the effectiveness of strategies implemented.',
+      'Participating in client meetings and providing constructive feedback and guidance to other parties.',
     ],
   },
   {
     title: 'Junior Front-End Developer',
     company_name: 'Chimera Prime - IT Consulting',
-    icon: tesla,
+    icon: chimeraPrime,
     iconBg: '#E6DEDD',
     date: 'June 2022 - April 2023',
     points: [
@@ -154,14 +159,15 @@ const experiences = [
   {
     title: 'SEO Intern',
     company_name: 'Chimera Prime - IT Consulting',
-    icon: shopify,
+    icon: sunriseSystem,
     iconBg: '#383E56',
     date: 'February 2022 - June 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Formulate and implement strategies aimed at enhancing organic search rankings and driving increased search traffic.',
+      'Conduct on-site optimization procedures, including the optimization of page titles, URLs, redirects, internal link structures, SEO copy editing, and regular review and maintenance of sitemaps.',
+      'Design and develop minor web elements, such as sliders or carousels, for clients.',
+      'Provide in-depth SEO analysis and recommendations on website and web page structures, based on thorough research and analysis.',
+      'Conduct comprehensive keyword research to identify and target new keywords, as well as to explore and develop effective content strategies.',
     ],
   },
 ];

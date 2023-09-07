@@ -39,6 +39,9 @@ import reactdevelopment from './reactdevelopment.png'
 import webdevelopment from './webdevelopment.png'
 import seooptimisation from './seooptimisation.png'
 
+import chimeraPrime from './chimeraprimelogo.png'
+import sunriseSystem from './sunrisesystemLogo.jpg'
+
 export {
   cmsdevelopment,
   reactdevelopment,
@@ -75,4 +78,6 @@ export {
   tripguide,
   herobg,
   herobgalt,
+  chimeraPrime,
+  sunriseSystem,
 };

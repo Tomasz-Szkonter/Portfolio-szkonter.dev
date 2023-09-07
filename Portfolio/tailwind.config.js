@@ -9,6 +9,7 @@ module.exports = {
         secondary: '#54D98C',
         'dark-100': '#263547',
         'dark-200': '#384E68',
+        'dark-300': '#131a23',
         'black-100': '#020202',
         'black-200': '#090325',
         'gray-100': '#DFE0E0',

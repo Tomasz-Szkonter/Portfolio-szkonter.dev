@@ -9,8 +9,7 @@ import {
   Navbar,
   Tech,
   Works,
-  StarsCanvas,
-  SectionSpacer,
+  StarsCanvas
 } from './components';
 
 const App = () => {
@@ -21,17 +20,17 @@ const App = () => {
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Hero />
         </div>
-        <SectionSpacer />
+
         <About />
-        <SectionSpacer />
+
         <Experience />
-        <SectionSpacer />
+
         <Tech />
-        <SectionSpacer />
+
         <Works />
-        <SectionSpacer />
+
         <Feedbacks />
-        <SectionSpacer />
+
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
