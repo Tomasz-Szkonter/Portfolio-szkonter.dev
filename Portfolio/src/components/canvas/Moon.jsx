@@ -21,7 +21,6 @@ const Moon = () => {
           position: [-4, 3, 6],
         }}
       />
-      <directionalLight intensity={1} position={[4, -2, 2]} />
       <directionalLight intensity={1} position={[-5, 2, -5]} />
     </>
   );
