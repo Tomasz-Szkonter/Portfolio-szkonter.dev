@@ -117,7 +117,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="bg-primary text-[18px] py-3 px-8 outline-none w-fit text-white font-bold shadow-md rounded-lg"
+              className="bg-dark-100 text-[18px] py-3 px-8 outline-none w-fit text-white font-bold shadow-md rounded-lg"
             >
               {loading ? "Sending..." : "Send"}
             </button>
