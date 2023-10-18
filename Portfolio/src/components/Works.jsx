@@ -8,7 +8,7 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import SectionSpacer from "./SectionSpacer";
 
-const ProjectCard = ({ index, name, description, tags, image, scource_code_link}) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link}) => {
   return(
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="w-full sm:w-[31%]">
       <Tilt
@@ -27,12 +27,13 @@ const ProjectCard = ({ index, name, description, tags, image, scource_code_link}
           />
 
           <div className="absolute inset-0 flex justify-end m-1 card-img_hover">
-            <div
-              onClick={() => window.open((scource_code_link, "_blank"))}
+            <a
+              href={`${source_code_link}`}
+              target="_blank"
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img src={github} alt="github" className="w-3/4 h-3/4 object-contain" />
-            </div>
+            </a>
           </div>
         </div>
         <div className="p-[1rem] bg-white">
