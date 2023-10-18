@@ -58,7 +58,7 @@ const Experience = () => {
     <div className="relative w-full h-full mx-auto overflow-hidden">
       <div className="flex w-full h-full justify-center items-center ">
         <div className="flex w-full marker:h-full flex-col bg-white py-[50px] sm:p-[50px]  shadow-section">
-          <motion.div variants={textVariant()}>
+          <motion.div variants={textVariant()} className='px-6'>
             <p className={styles.sectionSubText} >
               What I have done so far
             </p>

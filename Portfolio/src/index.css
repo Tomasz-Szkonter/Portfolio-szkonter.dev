@@ -34,6 +34,13 @@
   background-image: url('/src/assets/herobgalt.png');
 } */
 
+.section__work {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .sectionColor_testimonials {
   background-color: #384E68;
 }
@@ -198,6 +205,13 @@
 }
 
 /* Icon container's border */
+@media only screen and (min-width: 900px) {
+  .vertical-timeline {
+    width: 100% !important;
+  }
+}
+
+
 .vertical-timeline-element-icon {
   box-shadow: 0 0 0 4px #2ecc71, inset 0 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 0 4px rgba(0, 0, 0, 0.05);

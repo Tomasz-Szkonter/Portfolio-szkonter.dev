@@ -6,6 +6,7 @@ import { staggerContainer } from "../utils/motion"
 const SectionWrapper = (Component, idName) => 
 function HOC() {
 
+    let sectionName       = `section__` + `${idName}`;
     let sectionBackground = `sectionBackground_` + `${idName}`;
     let sectionColor      = `sectionColor_` + `${idName}`
 
@@ -15,7 +16,7 @@ function HOC() {
             initial="hidden"
             whileInView="show"
             viewport={{ once: true, amount: 0.25 }}
-            className={`${styles.paddingX} ${sectionBackground} ${sectionColor} relative z-0 bg-no-repeat bg-cover`}>
+            className={`${sectionName} ${styles.paddingX} ${sectionBackground} ${sectionColor} relative z-0 bg-no-repeat bg-cover`}>
 
             <span className="hash-span" id={idName}>
                 &nbsp;

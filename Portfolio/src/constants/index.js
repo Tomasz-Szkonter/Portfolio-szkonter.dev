@@ -31,20 +31,24 @@ import {
   logo,
   chimeraPrime,
   sunriseSystem,
+  testimonialsNestovia,
+  testimonialsFotelownia,
+  testimonialsBarczynska,
+  projectPortfolio,
 } from '../assets';
 
 export const navLinks = [
   {
-    id: 'portfolio',
-    title: 'Portfolio',
-  },
-  {
-    id: 'services',
-    title: 'Services',
-  },
-  {
     id: 'about',
     title: 'About',
+  },
+  {
+    id: 'work',
+    title: 'My experience',
+  },
+  {
+    id: 'projects',
+    title: 'Projects',
   },
   {
     id: 'contact',
@@ -175,51 +179,51 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
+      'During the website development process, Tomasz assisted us in gaining a better comprehension of SEO principles.',
+    name: 'Fotelownia Team',
     designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
+    company: 'Fotelownia',
+    image: testimonialsFotelownia,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+      "Grand job done by this individual. His solutions allowed us to recover time for optimising our processes.",
+    name: 'Grzegorz',
+    designation: 'CEO',
+    company: 'Nestovia',
+    image: testimonialsNestovia,
+  },
+  {
+    testimonial:
+      "Tomasz provided invaluable assistance in launching my eCommerce venture, offering solutions for all our requirements.",
+    name: 'Adrianna Barczyńska',
+    designation: 'Owner',
+    company: 'Barczyńska Dietetyk',
+    image: testimonialsBarczynska,
   },
 ];
 
 const projects = [
   {
-    name: 'Coming Soon...',
+    name: 'szkonter.dev website',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Step into my portfolio website crafted with React.js, Three.js, and Tailwind CSS. This project embraces responsive web design, ensuring a seamless experience on various devices. What sets it apart is the mesmerizing integration of 3D models that bring my work to life.',
     tags: [
       {
-        name: 'react',
+        name: 'React.JS',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'Three.JS',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'Tailwind.CSS',
         color: 'pink-text-gradient',
       },
     ],
-    image: herobg,
-    source_code_link: 'https://github.com/',
+    image: projectPortfolio,
+    source_code_link: 'https://github.com/Tomasz-Szkonter/Portfolio-szkonter.dev',
   },
   {
     name: 'Coming Soon...',
@@ -257,27 +261,6 @@ const projects = [
       },
       {
         name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: herobg,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Coming Soon...',
-    description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],

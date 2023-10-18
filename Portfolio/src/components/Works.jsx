@@ -6,6 +6,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import SectionSpacer from "./SectionSpacer";
 
 const ProjectCard = ({ index, name, description, tags, image, scource_code_link}) => {
   return(
@@ -22,10 +23,10 @@ const ProjectCard = ({ index, name, description, tags, image, scource_code_link}
           <img 
             src={image}
             alt={name}
-            className="w-full h-full object-cover rounded-t-2xl"
+            className="w-full h-full object-contain rounded-t-2xl"
           />
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex justify-end m-1 card-img_hover">
             <div
               onClick={() => window.open((scource_code_link, "_blank"))}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
@@ -89,8 +90,9 @@ const Works = () => {
           </div>
         </div>
       </div>
+    <SectionSpacer />
     </div>
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

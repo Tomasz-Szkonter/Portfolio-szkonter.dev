@@ -4,16 +4,17 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { textVariant, fadeIn } from "../utils/motion";
 import { testimonials } from "../constants";
+import SectionSpacer from "./SectionSpacer";
 
 const FeedbackCard = ({ index, testimonial, name, designation, company, image }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="bg-dark-100 p-10 rounded-3xl xs:w-[320px] w-full"
+    className="bg-dark-100 p-10 rounded-3xl xs:w-full md:w-[320px]  flex flex-col justify-between"
   >
     <p className="text-white font-black text-[48px]">"</p>
 
     <div className="mt-1 ">
-      <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
+      <p className="text-white tracking-wider text-[18px] pb-">{testimonial}</p>
 
       <div className="mt-7 flex justify-between items-center gap-1 text-white">
         <div className="flex-1 flex flex-col">
@@ -42,15 +43,16 @@ const Feedbacks = () => {
           </motion.div>
         </div>
       </div>
-      <div className={`${styles.paddingX} mt-5 pb-14 flex flex-wrap gap-7 justify-center`}>
+      <div className={`mt-5 pb-14 flex flex-wrap gap-7 justify-center p-[0px]`}>
           {testimonials.map((testimonial, index) => (
-            <FeedbackCard 
+            <FeedbackCard
               key={testimonial.name}
               index={index}
               {...testimonial}
             />            
           ))}
         </div>
+    <SectionSpacer />
     </div>
   );
 };

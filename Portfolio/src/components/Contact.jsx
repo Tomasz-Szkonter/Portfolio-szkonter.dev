@@ -68,10 +68,10 @@ const Contact = () => {
 
   return (
     <>
-      <div className="xl:my-12 xl:flex-row flex-col-reverse flex fap-10 overflow-hidden z-[-1]">
+      <div className="xl:my-12 lg:flex-row flex-col-reverse flex fap-10 overflow-hidden z-[-1]">
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
-          className="flex-[0.75] bg-dark-100 p-8 rounded-2xl z-[10]"
+          className="w-full lg:w-[38%] bg-dark-100 p-8 rounded-2xl z-[10]"
         >
           <p className={styles.sectionSubText}>Get in touch.</p>
           <h3 className={styles.sectionHeadText + " text-white"}>Contact.</h3>
@@ -126,7 +126,7 @@ const Contact = () => {
 
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
-          className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] z-[10]"
+          className="w-full lg:w-[60%] xl:h-auto md:h-[550px] h-[350px] z-[10]"
         >
           <MoonCanvas />
         </motion.div>

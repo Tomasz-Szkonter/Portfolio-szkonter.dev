@@ -42,6 +42,12 @@ import seooptimisation from './seooptimisation.png'
 import chimeraPrime from './chimeraprimelogo.png'
 import sunriseSystem from './sunrisesystemLogo.jpg'
 
+import testimonialsNestovia from './testimonials_nestovia.png'
+import testimonialsFotelownia from './testimonials_fotelownia.png'
+import testimonialsBarczynska from './testimonials_barczynska.png'
+
+import projectPortfolio from './project_portfolio_thumbnail.png'
+
 export {
   cmsdevelopment,
   reactdevelopment,
@@ -80,4 +86,8 @@ export {
   herobgalt,
   chimeraPrime,
   sunriseSystem,
+  testimonialsNestovia,
+  testimonialsFotelownia,
+  testimonialsBarczynska,
+  projectPortfolio,
 };
