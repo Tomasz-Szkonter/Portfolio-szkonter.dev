@@ -7,5 +7,8 @@ dotenv.config();
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  assetsInclude: ['**/*.gltf']
+  assetsInclude: ['**/*.gltf'],
+  build: {
+    sourcemap: true,
+  }
 })
