@@ -1,7 +1,6 @@
 # Portfolio Website with React.js, Three.js, and Tailwind.CSS
 
-![Portfolio Desktop Website Screenshot](https://i.ibb.co/JBmKm65/project-portfolio-desktop-1.png)
-![Portfolio Mobile Website Screenshot](https://i.ibb.co/SRqBcnR/project-portfolio-mobile-1.png)
+![Portfolio Website Thumbnail](https://i.ibb.co/WFMPjmb/project-portfolio-thumbnail.png)
 
 Welcome to my portfolio website! This project represents my journey as a web developer and showcases my skills, experience, and creativity. Built using cutting-edge technologies like React.js, Three.js, and Tailwind.CSS, this website offers a dynamic and visually engaging experience.
 
@@ -42,3 +41,6 @@ One of the most challenging aspects of this project was optimizing and debugging
 [Explore my portfolio website](https://szkonter.dev/)
 
 Feel free to explore the source code and see how I brought this project to life. Your feedback and contributions are always welcome!
+
+![Portfolio Desktop Website Screenshot](https://i.ibb.co/JBmKm65/project-portfolio-desktop-1.png)
+![Portfolio Mobile Website Screenshot](https://i.ibb.co/SRqBcnR/project-portfolio-mobile-1.png)
