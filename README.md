@@ -32,6 +32,7 @@ One of the most challenging aspects of this project was optimizing and debugging
 
 ### Technologies Used
 
+- Vite.js
 - React.js
 - Three.js
 - Tailwind.CSS
