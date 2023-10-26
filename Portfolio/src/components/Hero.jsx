@@ -49,13 +49,13 @@ const Hero = () => {
         </div>
 
         <div
-          className={`w-full sm:w-5/12 h-[310px] sm:h-full flex justify-center items-center  rounded-tr-2xl`}
+          className={`w-full sm:w-5/12 sm:h-full flex justify-center items-center  rounded-tr-2xl`}
         >
           <div className="relative w-full h-full z-10 hidden lg:block">
             <LogoModel className="testing-my-canvas" />
           </div>
-          <div className="w-full h-full flex justify-center items-center lg:hidden">
-            <img src={logo} alt="Szkonter Development Logo" className="w-[150px] sm:w-[225px] self-end"/>
+          <div className="w-full h-full flex justify-center items-center lg:hidden self-end justify-self-end">
+            <img src={logo} alt="Szkonter Development Logo" className="w-[150px] sm:w-[225px] "/>
           </div>
         </div>
       </div>
