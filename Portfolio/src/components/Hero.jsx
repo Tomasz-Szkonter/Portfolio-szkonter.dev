@@ -34,15 +34,15 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="flex justify-evenly align-middle">
+          <div className="flex justify-start align-middle flex-wrap">
             <a
               href="#work"
-              className="bg-primary hover:bg-white text-[18px] py-2 px-4 xs:py-3 xs:px-8 mr-[1rem] xs:mr-[2rem] outline-none w-fit text-white hover:text-primary border-2 border-primary shadow-md rounded-lg whitespace-nowrap cursor-pointer font-medium ease-in-out duration-300">
+              className="bg-primary hover:bg-white text-[18px] py-2 px-4 xs:py-3 xs:px-8 mr-[1rem] xs:mr-[2rem] mb-[1rem] xs:mb-[2rem] outline-none w-fit text-white hover:text-primary border-2 border-primary shadow-md rounded-lg whitespace-nowrap cursor-pointer font-medium ease-in-out duration-300">
               My experience
             </a>
             <a
               href="#contact" 
-              className="bg-white hover:bg-dark-100 text-[18px] py-2 px-4 xs:py-3 xs:px-8  outline-none w-fit text-dark-100 hover:text-white border-2 border-dark-100 shadow-md rounded-lg whitespace-nowrap cursor-pointer font-medium ease-in-out duration-300">
+              className="bg-white hover:bg-dark-100 text-[18px] py-2 px-4 xs:py-3 xs:px-8 mb-[1rem] xs:mb-[2rem] outline-none w-fit text-dark-100 hover:text-white border-2 border-dark-100 shadow-md rounded-lg whitespace-nowrap cursor-pointer font-medium ease-in-out duration-300">
               Contact me
             </a>
           </div>
@@ -55,7 +55,7 @@ const Hero = () => {
             <LogoModel className="testing-my-canvas" />
           </div>
           <div className="w-full h-full flex justify-center items-center lg:hidden">
-            <img src={logo} alt="Szkonter Development Logo" className="w-[150px] sm:w-[225px]"/>
+            <img src={logo} alt="Szkonter Development Logo" className="w-[150px] sm:w-[225px] self-start"/>
           </div>
         </div>
       </div>
