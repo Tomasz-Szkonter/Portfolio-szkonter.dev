@@ -11,7 +11,7 @@ const Hero = () => {
         className={`${styles.paddingX} pt-24 flex h-full justify-start sm:justify-center items-center flex-col-reverse sm:flex-row`}
       >
         <div
-          className={`w-full sm:w-7/12 sm:h-full py-[50px] sm:p-[50px] flex flex-col justify-evenly items-start shadow-hero bg-white rounded-tl-2xl gap-8`}
+          className={`w-full sm:w-7/12 sm:h-full pb-[50px] sm:p-[50px] pt-[10px] sm:pt-[50px] flex flex-col justify-evenly items-start shadow-hero bg-white rounded-tl-2xl gap-8`}
         >
           <div className="w-full flex flex-row">
             <div className="flex-col justify-center items-center mt-5 mr-5  hidden xs:flex">
@@ -49,7 +49,7 @@ const Hero = () => {
         </div>
 
         <div
-          className={`w-full sm:w-5/12 sm:h-full flex justify-center items-center  rounded-tr-2xl pt-[100px] sm:pt-[0px]`}
+          className={`w-full sm:w-5/12 sm:h-full flex justify-center items-center  rounded-tr-2xl pt-[180px] sm:pt-[0px]`}
         >
           <div className="relative w-full h-full z-10 hidden lg:block">
             <LogoModel className="testing-my-canvas" />
