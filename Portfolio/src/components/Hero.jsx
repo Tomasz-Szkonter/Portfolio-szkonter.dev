@@ -49,7 +49,7 @@ const Hero = () => {
         </div>
 
         <div
-          className={`w-full sm:w-5/12 sm:h-full flex justify-center items-center  rounded-tr-2xl pt-[180px] sm:pt-[0px]`}
+          className={`w-full sm:w-5/12 sm:h-full flex justify-center items-center  rounded-tr-2xl pt-[340px] sm:pt-[0px]`}
         >
           <div className="relative w-full h-full z-10 hidden lg:block">
             <LogoModel className="testing-my-canvas" />
