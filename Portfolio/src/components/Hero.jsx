@@ -6,7 +6,7 @@ import { logo } from "../assets";
 const Hero = () => {
   return (
     // bg-hero-pattern-alt
-    <section className="relative w-full h-screen mx-auto  bg-no-repeat bg-cover overflow-hidden ">
+    <section className="relative w-full mx-auto h-screen bg-no-repeat bg-cover overflow-hidden flex items-end sm:block">
       <div
         className={`${styles.paddingX} pt-24 flex h-full justify-start sm:justify-center items-center flex-col-reverse sm:flex-row`}
       >
@@ -49,13 +49,13 @@ const Hero = () => {
         </div>
 
         <div
-          className={`w-full sm:w-5/12 sm:h-full flex justify-center items-center  rounded-tr-2xl pt-[540px] sm:pt-[0px]`}
+          className={`w-full sm:w-5/12 h-[310px] sm:h-full flex justify-center items-center  rounded-tr-2xl`}
         >
           <div className="relative w-full h-full z-10 hidden lg:block">
             <LogoModel className="testing-my-canvas" />
           </div>
-          <div className="w-full h-full flex justify-center items-center lg:hidden self-end justify-self-end">
-            <img src={logo} alt="Szkonter Development Logo" className="w-[150px] sm:w-[225px] "/>
+          <div className="w-full h-full flex justify-center items-center lg:hidden">
+            <img src={logo} alt="Szkonter Development Logo" className="w-[150px] sm:w-[225px] self-end"/>
           </div>
         </div>
       </div>
