@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { LogoModel } from "./canvas";
+import { logo } from "../assets";
 
 const Hero = () => {
   return (
@@ -50,8 +51,11 @@ const Hero = () => {
         <div
           className={`w-full sm:w-5/12 h-[310px] sm:h-full flex justify-center items-center  rounded-tr-2xl`}
         >
-          <div className="relative w-full h-full z-10">
+          <div className="relative w-full h-full z-10 hidden lg:block">
             <LogoModel className="testing-my-canvas" />
+          </div>
+          <div className="w-full h-full flex justify-center items-center lg:hidden">
+            <img src={logo} alt="Szkonter Development Logo" className="w-[150px] sm:w-[225px]"/>
           </div>
         </div>
       </div>

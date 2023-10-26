@@ -126,7 +126,7 @@ const Contact = () => {
 
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
-          className="w-full lg:w-[60%] xl:h-auto md:h-[550px] h-[350px] z-[10]"
+          className="hidden lg:block w-full lg:w-[60%] xl:h-auto md:h-[550px] h-[350px] z-[10]"
         >
           <MoonCanvas />
         </motion.div>
