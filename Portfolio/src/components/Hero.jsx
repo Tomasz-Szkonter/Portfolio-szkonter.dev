@@ -55,7 +55,7 @@ const Hero = () => {
             <LogoModel className="testing-my-canvas" />
           </div>
           <div className="w-full h-full flex justify-center items-center lg:hidden">
-            <img src={logo} alt="Szkonter Development Logo" className="w-[150px] sm:w-[225px] self-start"/>
+            <img src={logo} alt="Szkonter Development Logo" className="w-[150px] sm:w-[225px] self-end"/>
           </div>
         </div>
       </div>
