@@ -25,16 +25,17 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
             alt={name}
             className="w-full h-full object-contain rounded-t-2xl"
           />
-
-          <div className="absolute inset-0 flex justify-end m-1 card-img_hover">
-            <a
-              href={`${source_code_link}`}
-              target="_blank"
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img src={github} alt="github" className="w-3/4 h-3/4 object-contain" />
-            </a>
-          </div>
+          {source_code_link !== '' && (
+            <div className="absolute inset-0 flex justify-end m-1 card-img_hover">
+              <a
+                href={`${source_code_link}`}
+                target="_blank"
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img src={github} alt="github" className="w-3/4 h-3/4 object-contain" />
+              </a>
+            </div>
+          )}
         </div>
         <div className="p-[1rem] bg-white">
           <h3 className=" text-dark-100 font-bold text-[24px]">{name}</h3>
