@@ -217,7 +217,7 @@ const projects = [
       },
     ],
     image: SDOrders,
-    source_code_link: 'https://github.com/',
+    source_code_link: '',
   },
   {
     name: 'szkonter.dev website',
@@ -259,7 +259,7 @@ const projects = [
       },
     ],
     image: herobg,
-    source_code_link: 'https://github.com/',
+    source_code_link: '',
   },
 ];
 
