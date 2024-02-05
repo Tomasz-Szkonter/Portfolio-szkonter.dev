@@ -258,8 +258,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: herobg,
-    source_code_link: '',
+    image: herobg
   },
 ];
 
