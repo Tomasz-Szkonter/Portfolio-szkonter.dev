@@ -34,6 +34,7 @@ import testimonialsFotelownia from './testimonials_fotelownia.png'
 import testimonialsBarczynska from './testimonials_barczynska.png'
 
 import projectPortfolio from './project_portfolio_thumbnail.png'
+import SDOrders from './sd_orders.png'
 
 export {
   cmsdevelopment,
@@ -66,4 +67,5 @@ export {
   testimonialsFotelownia,
   testimonialsBarczynska,
   projectPortfolio,
+  SDOrders,
 };

@@ -23,10 +23,10 @@ const Hero = () => {
               <h1
                 className={`${styles.heroHeadText} text-dark-100 sm:leading-[5rem]`}
               >
-                Hi, We are <span className="text-[#2ECC71]">szkonter.dev</span>
+                Hi, I am <span className="text-[#2ECC71]">Tomasz</span>
               </h1>
               <p className={`${styles.heroSubText} mt-2 text-dark-100`}>
-                We create seamless user interfaces,
+                I create seamless user interfaces,
                 <br className="sm:block hidden" /> powerful web applications and{" "}
                 <br className="sm:block hidden" />
                 results-driven business websites.

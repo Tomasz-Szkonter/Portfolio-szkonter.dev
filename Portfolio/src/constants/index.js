@@ -24,6 +24,7 @@ import {
   testimonialsFotelownia,
   testimonialsBarczynska,
   projectPortfolio,
+  SDOrders,
 } from '../assets';
 
 export const navLinks = [
@@ -194,6 +195,31 @@ const testimonials = [
 
 const projects = [
   {
+    name: 'Order and Report System - Custom Plugin',
+    description:
+      'Successfully completed a significant project by creating a custom WordPress plugin for an Order and Reporting System, incorporating essential business features. The plugin seamlessly integrates with WordPress, contributing to a streamlined workflow and enhancing overall functionality.',
+    tags: [
+      {
+        name: 'WordPress',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'PHP',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'JS',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'SQL',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: SDOrders,
+    source_code_link: 'https://github.com/',
+  },
+  {
     name: 'szkonter.dev website',
     description:
       'Step into my portfolio website crafted with React.js, Three.js, and Tailwind CSS. This project embraces responsive web design, ensuring a seamless experience on various devices. What sets it apart is the mesmerizing integration of 3D models that bring my work to life.',
@@ -213,27 +239,6 @@ const projects = [
     ],
     image: projectPortfolio,
     source_code_link: 'https://github.com/Tomasz-Szkonter/Portfolio-szkonter.dev',
-  },
-  {
-    name: 'Coming Soon...',
-    description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: herobg,
-    source_code_link: 'https://github.com/',
   },
   {
     name: 'Coming Soon...',
