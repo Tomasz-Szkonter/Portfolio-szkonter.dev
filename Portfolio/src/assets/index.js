@@ -35,6 +35,8 @@ import testimonialsBarczynska from './testimonials_barczynska.png'
 
 import projectPortfolio from './project_portfolio_thumbnail.png'
 import SDOrders from './sd_orders.png'
+import epokTheme from './epok_theme.png'
+import comingSoon from './coming_soon.png'
 
 export {
   cmsdevelopment,
@@ -68,4 +70,6 @@ export {
   testimonialsBarczynska,
   projectPortfolio,
   SDOrders,
+  epokTheme,
+  comingSoon,
 };

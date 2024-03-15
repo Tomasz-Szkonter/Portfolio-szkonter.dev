@@ -25,6 +25,8 @@ import {
   testimonialsBarczynska,
   projectPortfolio,
   SDOrders,
+  epokTheme,
+  comingSoon,
 } from '../assets';
 
 export const navLinks = [
@@ -195,6 +197,39 @@ const testimonials = [
 
 const projects = [
   {
+    name: 'Epok Theme - Custom Wordpress Hybrid Theme',
+    description:
+      'Theme crafted for speed and efficiency, it boasts a lightweight design optimized for swift performance. By embracing block-oriented elements, it offers seamless content management and customization. Integrated seamlessly with WooCommerce, it empowers e-commerce functionalities effortlessly. Designed as a tech demo and boilerplate for Szkonter dev clients',
+    tags: [
+      {
+        name: 'WordPress',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'PHP',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'WooCommerce',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'React.JS',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'JS',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'SQL',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: epokTheme,
+    source_code_link: '',
+  },
+  {
     name: 'Order and Report System - Custom Plugin',
     description:
       'Successfully completed a significant project by creating a custom WordPress plugin for an Order and Reporting System, incorporating essential business features. The plugin seamlessly integrates with WordPress, contributing to a streamlined workflow and enhancing overall functionality.',
@@ -243,7 +278,7 @@ const projects = [
   {
     name: 'Coming Soon...',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'NEXT.JS Dashboard app',
     tags: [
       {
         name: 'nextjs',
@@ -258,7 +293,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: herobg,
+    image: comingSoon,
     source_code_link: '',
   },
 ];
