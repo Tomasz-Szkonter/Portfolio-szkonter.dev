@@ -32,7 +32,7 @@ const About = () => {
               Overview.
             </h2>
           </motion.div>
-          <motion.p variants={fadeIn("", "", 0.1, 1)} className="text-dark-200 text-[17px] max-w-3xl leading-30">
+          <motion.p variants={fadeIn("", "", 0.1, 1)} className="text-dark-200 text-[17px] leading-30">
             <p className="mt-1">
               Having immersed myself in the world of web development for over three years, I've gathered a ton of experience under my belt. 
               I've worn multiple hats - sometimes working solo as a freelancer, and other times jumping into the mix at respected software houses.</p>

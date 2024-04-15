@@ -37,7 +37,7 @@ const ExperienceCard = ({ experience }) => (
     <ul className='space-y-2 px-[1rem] pb-[1rem] bg-white list-none rounded-b-[3px]'>
       {experience.points.map((point, index) => (
         <div className='flex bg-white m-0 p-0'>
-          <span className='flex items-center justify-center mr-2'> 
+          <span className='flex items-center mr-2'> 
               <div className="w-3 h-3 rotate-45 rounded-m primary-dark-gradient" />
           </span>
           <li
